@@ -86,7 +86,7 @@ while True:
 			tracking = 0
 
 		
-	if cv2.waitKey(1) == 27:
+	if cv2.waitKey(1) == 27:	#ESC key
 		break
 
 cap.release()
